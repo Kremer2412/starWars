@@ -1,5 +1,4 @@
 import NavItem from "./NavItem.jsx";
-import navItem from "./NavItem.jsx";
 import {navItems} from "../utils/constants.js";
 
 const Navigation = () => {
