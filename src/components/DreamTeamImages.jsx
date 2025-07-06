@@ -1,12 +1,9 @@
+import DreamTeamImageStyles from "./DreamTeamImageStyles.jsx";
+
 const DreamTeamImages = ({images}) => {
     return (
         <>
-            {images.map((src, index) => {
-                let className = "col-sm-4 p-1";
-                if (index === 6 ) className += " leftImg";
-                if (index === 8) className += " rightImg";
-                return <img key={index} src={src} className={className}/>;
-            })}
+            {images.map((src, index) => (<DreamTeamImageStyles key={index} src={src} index={index}/>))}
         </>
     );
 };
