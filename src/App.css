@@ -33,3 +33,39 @@ header, footer {
 .leftImg{
   border-radius: 0 0 0 15px;
 }
+
+
+
+input[type=text], select, textarea {
+  color: #d1c228;
+  background-color: rgba(60, 69, 67, 0.6);
+  width: 100%;
+  padding: 12px;
+  border-color: #eedb00;
+
+
+  border-radius: 15px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+textarea {
+  height: 265px;
+}
+
+.container {
+  height: 100%;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+  border: 2px solid #eedb00 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+

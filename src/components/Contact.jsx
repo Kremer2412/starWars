@@ -1,7 +1,9 @@
+import Form from "./Form.jsx";
+
 const Contact = () => {
     return (
         <div>
-            contact
+            <Form/>
         </div>
     );
 };
